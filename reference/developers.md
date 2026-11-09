@@ -1,6 +1,6 @@
 ---
 name: "makefun-developers"
-version: "1.1.0"
+version: "1.1.1"
 description: "The make.fun API for scripts, apps and agents: API keys, the rate limits of each tier, a quickstart and every public route."
 homepage: "https://make.fun"
 openapi: "https://make.fun/api/openapi.public.json"
@@ -10,7 +10,7 @@ mcp: "https://make.fun/mcp"
 sdk: "https://github.com/makedotfun/makefun-sdk"
 ---
 
-> Generated from [make.fun/developers](https://make.fun/developers), docs version 1.1.0. An edit here is overwritten by the next update: changes belong upstream, in make.fun itself.
+> Generated from [make.fun/developers](https://make.fun/developers), docs version 1.1.1. An edit here is overwritten by the next update: changes belong upstream, in make.fun itself.
 
 # The make.fun API
 
@@ -246,13 +246,13 @@ Entering a bounty is a multipart `POST` with a signed entry message and the AI t
 
 ## TypeScript SDK
 
-The [TypeScript SDK](https://github.com/makedotfun/makefun-sdk) makes these calls from your own code: every route typed with what it takes and what it answers, lists walked page by page, a 429 waited out for its `Retry-After`, and keys and entries signed with any Solana wallet. It has no dependencies and runs on Node 22.13 or later and in current browsers. Install it from GitHub:
+The [TypeScript SDK](https://github.com/makedotfun/makefun-sdk) makes these calls from your own code: every route typed with what it takes and what it answers, lists walked page by page, a 429 waited out for its `Retry-After`, and keys and entries signed with any Solana wallet. It has no dependencies and runs on Node 22.13 or later and in current browsers. Install it from npm:
 
 ```sh
-npm install github:makedotfun/makefun-sdk
+npm install @makedotfun/sdk
 ```
 
-With npm 12 or newer, add `--allow-git=root`: those versions turn git dependencies off by default. Then list the bounties taking entries:
+Or from source, straight from its repository: `npm install github:makedotfun/makefun-sdk` (with npm 12 or newer, add `--allow-git=root`: those versions turn git dependencies off by default). Then list the bounties taking entries:
 
 ```ts
 import { createClient } from '@makedotfun/sdk';

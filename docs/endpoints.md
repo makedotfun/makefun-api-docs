@@ -1,6 +1,6 @@
 [make.fun API](../README.md) / **Endpoint reference**
 
-> Generated from [make.fun/developers](https://make.fun/developers), docs version 1.1.0. An edit here is overwritten by the next update: changes belong upstream, in make.fun itself.
+> Generated from [make.fun/developers](https://make.fun/developers), docs version 1.1.1. An edit here is overwritten by the next update: changes belong upstream, in make.fun itself.
 
 # Endpoint reference
 
