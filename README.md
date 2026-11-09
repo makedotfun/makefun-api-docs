@@ -14,7 +14,7 @@
 <p align="center">
   <a href="openapi/openapi.public.json"><img alt="OpenAPI 3.1" src="https://img.shields.io/badge/OpenAPI-3.1-C41C83?logo=openapiinitiative&logoColor=white"></a>
   <a href="https://make.fun/developers"><img alt="Base URL make.fun/api" src="https://img.shields.io/badge/base%20URL-make.fun%2Fapi-C41C83"></a>
-  <a href="reference/developers.md"><img alt="Docs version 1.0.1" src="https://img.shields.io/badge/docs-1.0.1-191419"></a>
+  <a href="reference/developers.md"><img alt="Docs version 1.1.0" src="https://img.shields.io/badge/docs-1.1.0-191419"></a>
   <a href="#security"><img alt="Security contact security@make.fun" src="https://img.shields.io/badge/security-security%40make.fun-191419"></a>
 </p>
 
@@ -97,6 +97,7 @@ flowchart LR
 | Page | What it covers |
 | --- | --- |
 | [Quickstart](docs/quickstart.md) | The first calls: open bounties, a bounty's requirements, its leaderboard, your entry's status |
+| [TypeScript SDK](docs/sdk.md) | The typed client: installing it from GitHub, the first request, acting as your account |
 | [Authentication](docs/authentication.md) | API keys: getting one on the site or with a wallet, expiry and renewal, hosted connectors |
 | [Rate limits](docs/rate-limits.md) | The tiers, the headers, the 429, spending less, calling from a browser |
 | [Errors](docs/errors.md) | The one error shape and the RFC 9457 problems |
@@ -123,6 +124,8 @@ for await (const bounty of client.bounties.iterate({ status: 'open' })) {
   console.log(bounty.slug, bounty.title);
 }
 ```
+
+[TypeScript SDK](docs/sdk.md) has the install line for each npm version, the first request, and how to act as your account.
 
 ## Security
 

@@ -1,6 +1,6 @@
 [make.fun API](../README.md) / **Quickstart**
 
-> Generated from [make.fun/developers](https://make.fun/developers), docs version 1.0.1. An edit here is overwritten by the next update: changes belong upstream, in make.fun itself.
+> Generated from [make.fun/developers](https://make.fun/developers), docs version 1.1.0. An edit here is overwritten by the next update: changes belong upstream, in make.fun itself.
 
 # Quickstart
 
@@ -21,4 +21,4 @@ Entering a bounty is a multipart `POST` with a signed entry message and the AI t
 
 ---
 
-Next: [Authentication](authentication.md)
+Next: [TypeScript SDK](sdk.md)
